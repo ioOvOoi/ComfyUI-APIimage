@@ -27,6 +27,7 @@ logger = logging.getLogger("ComfyUI-APIImage")
 MODEL_REF_IMAGE_LIMITS = {
     "dall-e-3": (0, 0),
     "gpt-image-1": (0, 16),
+    "gpt-image-2": (0, 16),
     "dall-e-2": (0, 1),
 }
 
